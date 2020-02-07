@@ -9,6 +9,7 @@
     "outDir": "dist",
     "jsx": "react",
     "baseUrl": ".",
+    "resolveJsonModule": true,
     "declaration": true,
     "paths": {
       "next/types": ["./src/types"]

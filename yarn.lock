@@ -80,6 +80,11 @@
   dependencies:
     "@types/node" "*"
 
+"@types/module-alias@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.npm.taobao.org/@types/module-alias/download/@types/module-alias-2.0.0.tgz#882668f8b8cdbda44812c3b592c590909e18849e"
+  integrity sha1-iCZo+LjNvaRIEsO1ksWQkJ4YhJ4=
+
 "@types/node@*", "@types/node@^13.7.0":
   version "13.7.0"
   resolved "https://registry.npm.taobao.org/@types/node/download/@types/node-13.7.0.tgz?cache=0&sync_timestamp=1580843161457&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Fnode%2Fdownload%2F%40types%2Fnode-13.7.0.tgz#b417deda18cf8400f278733499ad5547ed1abec4"
@@ -430,6 +435,11 @@ mkdirp@0.5.1:
   integrity sha1-MAV0OOrGz3+MR2fzhkjWaX11yQM=
   dependencies:
     minimist "0.0.8"
+
+module-alias@^2.2.2:
+  version "2.2.2"
+  resolved "https://registry.npm.taobao.org/module-alias/download/module-alias-2.2.2.tgz#151cdcecc24e25739ff0aa6e51e1c5716974c0e0"
+  integrity sha1-FRzc7MJOJXOf8KpuUeHFcWl0wOA=
 
 ms@2.0.0:
   version "2.0.0"
