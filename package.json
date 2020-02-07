@@ -2,7 +2,7 @@
   "name": "@shynome/next-server",
   "version": "9.2.1",
   "bin": {
-    "next-server": "dist/bin/next-server.js"
+    "next-server": "bin/next-server"
   },
   "main": "dist/next-server/server",
   "files": [

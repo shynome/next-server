@@ -1,10 +1,8 @@
-#!/usr/bin/env node
-
 import { resolve } from 'path'
 import arg from 'arg'
 import startServer from './start-server'
 
-const nextStart = () => {
+export const nextStart = () => {
   const args = arg({
     // Types
     '--help': Boolean,
@@ -55,12 +53,4 @@ const nextStart = () => {
       console.error(err)
       process.exit(1)
     })
-}
-
-import { addAlias } from 'module-alias'
-// @ts-ignore
-const { name: NextServerPackageName } = require('../../package.json')
-if (module === require.main) {
-  addAlias('next', NextServerPackageName)
-  nextStart()
 }

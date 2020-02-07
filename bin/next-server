@@ -1,0 +1,6 @@
+#!/usr/bin/env node
+
+const { addAlias } = require('module-alias')
+addAlias('next', require('../package.json').name)
+
+require('../dist/bin/next-server').nextStart()
