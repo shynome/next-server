@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "module": "esnext",
+    "target": "ES2017",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "outDir": "dist",
+    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "next/types": ["./src/types"]
+    }
+  },
+  "include": ["src"],
+  "exclude": ["dist", "./*.d.ts"]
+}
