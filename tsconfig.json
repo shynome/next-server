@@ -8,10 +8,11 @@
     "outDir": "dist",
     "jsx": "react",
     "baseUrl": ".",
+    "declaration": true,
     "paths": {
       "next/types": ["./src/types"]
     }
   },
   "include": ["src"],
-  "exclude": ["dist", "./*.d.ts"]
+  "exclude": ["dist"]
 }
