@@ -1,6 +1,6 @@
 {
   "name": "@shynome/next-server",
-  "version": "9.2.1",
+  "version": "9.2.2",
   "bin": {
     "next-server": "bin/next-server"
   },
