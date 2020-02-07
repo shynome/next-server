@@ -487,6 +487,11 @@ unpipe@1.0.0:
   resolved "https://registry.npm.taobao.org/unpipe/download/unpipe-1.0.0.tgz#b2bf4ee8514aae6165b4817829d21b2ef49904ec"
   integrity sha1-sr9O6FFKrmFltIF4KdIbLvSZBOw=
 
+use-subscription@1.1.1:
+  version "1.1.1"
+  resolved "https://registry.npm.taobao.org/use-subscription/download/use-subscription-1.1.1.tgz#5509363e9bb152c4fb334151d4dceb943beaa7bb"
+  integrity sha1-VQk2PpuxUsT7M0FR1NzrlDvqp7s=
+
 vary@~1.1.2:
   version "1.1.2"
   resolved "https://registry.npm.taobao.org/vary/download/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
