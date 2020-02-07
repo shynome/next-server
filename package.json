@@ -6,6 +6,7 @@
   },
   "main": "dist/next-server/server",
   "files": [
+    "bin",
     "dist",
     "*.js"
   ],
