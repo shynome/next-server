@@ -58,7 +58,8 @@ const nextStart = () => {
 }
 
 import { addAlias } from 'module-alias'
-import { name as NextServerPackageName } from '../../package.json'
+// @ts-ignore
+const { name: NextServerPackageName } = require('../../package.json')
 if (module === require.main) {
   addAlias('next', NextServerPackageName)
   nextStart()
